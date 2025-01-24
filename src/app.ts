@@ -9,10 +9,14 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use("/", movieRoutes);
+app.get("/", (req: Request, res: Response) => {
+  res.send("Welcome to the movie database!");
+});
+
+app.use("/api/v1", movieRoutes);
 
 db.then(() => {
   app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
+    console.log(`Server is running on port http://localhost:${port}`);
   });
 });
