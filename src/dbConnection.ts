@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 dotenv.config();
 
 const dbHost = process.env.DB_HOST || "127.0.0.1";
-const dbName = process.env.DB_NAME || "database";
+const dbName = process.env.DB_NAME || "db";
 const dbPort = process.env.DB_PORT || "27017";
 
 export const db = mongoose
