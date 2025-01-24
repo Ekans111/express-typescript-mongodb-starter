@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 
 dotenv.config();
 
-const dbHost = process.env.DB_HOST || "localhost";
+const dbHost = process.env.DB_HOST || "127.0.0.1";
 const dbName = process.env.DB_NAME || "database";
 const dbPort = process.env.DB_PORT || "27017";
 
