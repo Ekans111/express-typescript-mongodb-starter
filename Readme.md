@@ -39,7 +39,7 @@ This project contains a starter setup for building RESTful APIs with Express and
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/ekans111/express-typescript-starter.git
+   git clone https://github.com/Ekans111/express-typescript-mongodb-starter.git
    cd express-typescript-starter
    ```
 
