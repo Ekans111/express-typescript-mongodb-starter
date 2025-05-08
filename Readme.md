@@ -102,4 +102,4 @@ Feel free to contribute to this starter kit by opening issues or pull requests. 
 
 ## Contact
 
-**Author:** [Ekans111](https://t.me/hiroyama_92)
+**Author:** [Ekans122](https://t.me/hiroyama_92)
